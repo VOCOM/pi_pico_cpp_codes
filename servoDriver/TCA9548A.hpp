@@ -26,8 +26,8 @@ TCA9548A(int pin1_, int pin2_, int pin3_){
  * @param len Number of bytes
  */
 void sendPacket(int device, int RW, int* data_ptr, int len){
-    int start = 0b11100000 | device;
-    int stop = 
+    int start   = 0b11110000;
+    int stop    = 0b00001111;
 }
 
 private:
