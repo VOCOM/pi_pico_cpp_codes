@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/c/Users/Syaza/OneDrive/Project/R0V3R/Code/pico-sdk/src/rp2040/hardware_structs
+# Install script for directory: /mnt/c/pi_pico_cpp_codes/pico-sdk/src/rp2040/hardware_structs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

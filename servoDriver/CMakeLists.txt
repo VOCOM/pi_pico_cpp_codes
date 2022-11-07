@@ -19,6 +19,7 @@ target_link_libraries(servoDriver
     pico_stdlib
     pico_time
     hardware_pwm
+    hardware_i2c
     pico_cyw43_arch_none
 )
 

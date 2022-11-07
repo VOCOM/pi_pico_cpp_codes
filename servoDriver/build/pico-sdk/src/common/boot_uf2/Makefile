@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/Syaza/OneDrive/Project/R0V3R/Code/servoDriver
+CMAKE_SOURCE_DIR = /mnt/c/pi_pico_cpp_codes/servoDriver
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/Syaza/OneDrive/Project/R0V3R/Code/servoDriver/build
+CMAKE_BINARY_DIR = /mnt/c/pi_pico_cpp_codes/servoDriver/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /mnt/c/Users/Syaza/OneDrive/Project/R0V3R/Code/servoDriver/build && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Syaza/OneDrive/Project/R0V3R/Code/servoDriver/build/CMakeFiles /mnt/c/Users/Syaza/OneDrive/Project/R0V3R/Code/servoDriver/build/pico-sdk/src/common/boot_uf2/CMakeFiles/progress.marks
-	cd /mnt/c/Users/Syaza/OneDrive/Project/R0V3R/Code/servoDriver/build && $(MAKE) -f CMakeFiles/Makefile2 pico-sdk/src/common/boot_uf2/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Syaza/OneDrive/Project/R0V3R/Code/servoDriver/build/CMakeFiles 0
+	cd /mnt/c/pi_pico_cpp_codes/servoDriver/build && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/pi_pico_cpp_codes/servoDriver/build/CMakeFiles /mnt/c/pi_pico_cpp_codes/servoDriver/build/pico-sdk/src/common/boot_uf2/CMakeFiles/progress.marks
+	cd /mnt/c/pi_pico_cpp_codes/servoDriver/build && $(MAKE) -f CMakeFiles/Makefile2 pico-sdk/src/common/boot_uf2/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/pi_pico_cpp_codes/servoDriver/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /mnt/c/Users/Syaza/OneDrive/Project/R0V3R/Code/servoDriver/build && $(MAKE) -f CMakeFiles/Makefile2 pico-sdk/src/common/boot_uf2/clean
+	cd /mnt/c/pi_pico_cpp_codes/servoDriver/build && $(MAKE) -f CMakeFiles/Makefile2 pico-sdk/src/common/boot_uf2/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,17 +97,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /mnt/c/Users/Syaza/OneDrive/Project/R0V3R/Code/servoDriver/build && $(MAKE) -f CMakeFiles/Makefile2 pico-sdk/src/common/boot_uf2/preinstall
+	cd /mnt/c/pi_pico_cpp_codes/servoDriver/build && $(MAKE) -f CMakeFiles/Makefile2 pico-sdk/src/common/boot_uf2/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /mnt/c/Users/Syaza/OneDrive/Project/R0V3R/Code/servoDriver/build && $(MAKE) -f CMakeFiles/Makefile2 pico-sdk/src/common/boot_uf2/preinstall
+	cd /mnt/c/pi_pico_cpp_codes/servoDriver/build && $(MAKE) -f CMakeFiles/Makefile2 pico-sdk/src/common/boot_uf2/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /mnt/c/Users/Syaza/OneDrive/Project/R0V3R/Code/servoDriver/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/c/pi_pico_cpp_codes/servoDriver/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -129,6 +129,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /mnt/c/Users/Syaza/OneDrive/Project/R0V3R/Code/servoDriver/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/c/pi_pico_cpp_codes/servoDriver/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

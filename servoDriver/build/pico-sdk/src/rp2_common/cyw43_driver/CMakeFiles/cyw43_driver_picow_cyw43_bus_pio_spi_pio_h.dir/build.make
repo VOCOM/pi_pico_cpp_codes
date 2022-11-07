@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/Syaza/OneDrive/Project/R0V3R/Code/servoDriver
+CMAKE_SOURCE_DIR = /mnt/c/pi_pico_cpp_codes/servoDriver
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/Syaza/OneDrive/Project/R0V3R/Code/servoDriver/build
+CMAKE_BINARY_DIR = /mnt/c/pi_pico_cpp_codes/servoDriver/build
 
 # Utility rule file for cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.
 
@@ -56,9 +56,9 @@ include pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43
 pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h: pico-sdk/src/rp2_common/cyw43_driver/cyw43_bus_pio_spi.pio.h
 
 
-pico-sdk/src/rp2_common/cyw43_driver/cyw43_bus_pio_spi.pio.h: /mnt/c/Users/Syaza/OneDrive/Project/R0V3R/Code/pico-sdk/src/rp2_common/cyw43_driver/cyw43_bus_pio_spi.pio
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/c/Users/Syaza/OneDrive/Project/R0V3R/Code/servoDriver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating cyw43_bus_pio_spi.pio.h"
-	cd /mnt/c/Users/Syaza/OneDrive/Project/R0V3R/Code/servoDriver/build/pico-sdk/src/rp2_common/cyw43_driver && ../../../../pioasm/pioasm -o c-sdk /mnt/c/Users/Syaza/OneDrive/Project/R0V3R/Code/pico-sdk/src/rp2_common/cyw43_driver/cyw43_bus_pio_spi.pio /mnt/c/Users/Syaza/OneDrive/Project/R0V3R/Code/servoDriver/build/pico-sdk/src/rp2_common/cyw43_driver/cyw43_bus_pio_spi.pio.h
+pico-sdk/src/rp2_common/cyw43_driver/cyw43_bus_pio_spi.pio.h: /mnt/c/pi_pico_cpp_codes/pico-sdk/src/rp2_common/cyw43_driver/cyw43_bus_pio_spi.pio
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/c/pi_pico_cpp_codes/servoDriver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating cyw43_bus_pio_spi.pio.h"
+	cd /mnt/c/pi_pico_cpp_codes/servoDriver/build/pico-sdk/src/rp2_common/cyw43_driver && ../../../../pioasm/pioasm -o c-sdk /mnt/c/pi_pico_cpp_codes/pico-sdk/src/rp2_common/cyw43_driver/cyw43_bus_pio_spi.pio /mnt/c/pi_pico_cpp_codes/servoDriver/build/pico-sdk/src/rp2_common/cyw43_driver/cyw43_bus_pio_spi.pio.h
 
 cyw43_driver_picow_cyw43_bus_pio_spi_pio_h: pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h
 cyw43_driver_picow_cyw43_bus_pio_spi_pio_h: pico-sdk/src/rp2_common/cyw43_driver/cyw43_bus_pio_spi.pio.h
@@ -72,10 +72,10 @@ pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio
 .PHONY : pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build
 
 pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/clean:
-	cd /mnt/c/Users/Syaza/OneDrive/Project/R0V3R/Code/servoDriver/build/pico-sdk/src/rp2_common/cyw43_driver && $(CMAKE_COMMAND) -P CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/cmake_clean.cmake
+	cd /mnt/c/pi_pico_cpp_codes/servoDriver/build/pico-sdk/src/rp2_common/cyw43_driver && $(CMAKE_COMMAND) -P CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/cmake_clean.cmake
 .PHONY : pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/clean
 
 pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/depend:
-	cd /mnt/c/Users/Syaza/OneDrive/Project/R0V3R/Code/servoDriver/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/Syaza/OneDrive/Project/R0V3R/Code/servoDriver /mnt/c/Users/Syaza/OneDrive/Project/R0V3R/Code/pico-sdk/src/rp2_common/cyw43_driver /mnt/c/Users/Syaza/OneDrive/Project/R0V3R/Code/servoDriver/build /mnt/c/Users/Syaza/OneDrive/Project/R0V3R/Code/servoDriver/build/pico-sdk/src/rp2_common/cyw43_driver /mnt/c/Users/Syaza/OneDrive/Project/R0V3R/Code/servoDriver/build/pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/c/pi_pico_cpp_codes/servoDriver/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/pi_pico_cpp_codes/servoDriver /mnt/c/pi_pico_cpp_codes/pico-sdk/src/rp2_common/cyw43_driver /mnt/c/pi_pico_cpp_codes/servoDriver/build /mnt/c/pi_pico_cpp_codes/servoDriver/build/pico-sdk/src/rp2_common/cyw43_driver /mnt/c/pi_pico_cpp_codes/servoDriver/build/pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/depend
 

@@ -1,4 +1,4 @@
-// Padded and checksummed version of: /mnt/c/Users/Syaza/OneDrive/Project/R0V3R/Code/servoDriver/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
+// Padded and checksummed version of: /mnt/c/pi_pico_cpp_codes/servoDriver/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
 
 .cpu cortex-m0plus
 .thumb

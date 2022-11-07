@@ -1,3 +1,0 @@
-/mnt/c/Users/Syaza/OneDrive/Project/R0V3R/Code/motorDriver/build/pioasm/CMakeFiles/rebuild_cache.dir
-/mnt/c/Users/Syaza/OneDrive/Project/R0V3R/Code/motorDriver/build/pioasm/CMakeFiles/edit_cache.dir
-/mnt/c/Users/Syaza/OneDrive/Project/R0V3R/Code/motorDriver/build/pioasm/CMakeFiles/pioasm.dir

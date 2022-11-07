@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/c/Users/Syaza/OneDrive/Project/R0V3R/Code/pico-sdk/tools/pioasm
+# Install script for directory: /mnt/c/pi_pico_cpp_codes/pico-sdk/tools/pioasm
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/mnt/c/Users/Syaza/OneDrive/Project/R0V3R/Code/servoDriver/build/pioasm/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/mnt/c/pi_pico_cpp_codes/servoDriver/build/pioasm/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

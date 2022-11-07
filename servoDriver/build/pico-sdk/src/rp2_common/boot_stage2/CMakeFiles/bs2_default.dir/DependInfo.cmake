@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_ASM
-  "/mnt/c/Users/Syaza/OneDrive/Project/R0V3R/Code/pico-sdk/src/rp2_common/boot_stage2/compile_time_choice.S" "/mnt/c/Users/Syaza/OneDrive/Project/R0V3R/Code/servoDriver/build/pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.obj"
+  "/mnt/c/pi_pico_cpp_codes/pico-sdk/src/rp2_common/boot_stage2/compile_time_choice.S" "/mnt/c/pi_pico_cpp_codes/servoDriver/build/pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.obj"
   )
 set(CMAKE_ASM_COMPILER_ID "GNU")
 
@@ -18,14 +18,14 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
 
 # The include file search paths:
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
-  "/mnt/c/Users/Syaza/OneDrive/Project/R0V3R/Code/pico-sdk/src/rp2_common/boot_stage2/asminclude"
-  "/mnt/c/Users/Syaza/OneDrive/Project/R0V3R/Code/pico-sdk/src/rp2040/hardware_regs/include"
-  "/mnt/c/Users/Syaza/OneDrive/Project/R0V3R/Code/pico-sdk/src/rp2_common/hardware_base/include"
-  "/mnt/c/Users/Syaza/OneDrive/Project/R0V3R/Code/pico-sdk/src/common/pico_base/include"
+  "/mnt/c/pi_pico_cpp_codes/pico-sdk/src/rp2_common/boot_stage2/asminclude"
+  "/mnt/c/pi_pico_cpp_codes/pico-sdk/src/rp2040/hardware_regs/include"
+  "/mnt/c/pi_pico_cpp_codes/pico-sdk/src/rp2_common/hardware_base/include"
+  "/mnt/c/pi_pico_cpp_codes/pico-sdk/src/common/pico_base/include"
   "generated/pico_base"
-  "/mnt/c/Users/Syaza/OneDrive/Project/R0V3R/Code/pico-sdk/src/boards/include"
-  "/mnt/c/Users/Syaza/OneDrive/Project/R0V3R/Code/pico-sdk/src/rp2_common/pico_platform/include"
-  "/mnt/c/Users/Syaza/OneDrive/Project/R0V3R/Code/pico-sdk/src/rp2_common/boot_stage2/include"
+  "/mnt/c/pi_pico_cpp_codes/pico-sdk/src/boards/include"
+  "/mnt/c/pi_pico_cpp_codes/pico-sdk/src/rp2_common/pico_platform/include"
+  "/mnt/c/pi_pico_cpp_codes/pico-sdk/src/rp2_common/boot_stage2/include"
   )
 
 # Targets to which this target links.

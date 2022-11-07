@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/mnt/c/Users/Syaza/OneDrive/Project/R0V3R/Code/pico-sdk/src/common/boot_uf2/include 
+CXX_INCLUDES = -I/mnt/c/pi_pico_cpp_codes/pico-sdk/src/common/boot_uf2/include 
 
