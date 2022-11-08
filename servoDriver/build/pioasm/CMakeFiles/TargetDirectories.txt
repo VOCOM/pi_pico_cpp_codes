@@ -1,3 +1,0 @@
-/mnt/c/pi_pico_cpp_codes/servoDriver/build/pioasm/CMakeFiles/rebuild_cache.dir
-/mnt/c/pi_pico_cpp_codes/servoDriver/build/pioasm/CMakeFiles/edit_cache.dir
-/mnt/c/pi_pico_cpp_codes/servoDriver/build/pioasm/CMakeFiles/pioasm.dir
