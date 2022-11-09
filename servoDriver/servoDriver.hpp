@@ -68,7 +68,7 @@ void setServo(int angle){
 }
 
 void readEncoder(){
-    cur_pos = 0;
+    *cur_pos = *goal_pos;
 }
 
 /**

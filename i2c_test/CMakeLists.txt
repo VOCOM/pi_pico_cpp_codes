@@ -10,23 +10,33 @@ project(my_project)
 pico_sdk_init()
 
 # rest of your project
-add_executable(servoDriver
-    servoDriver.cpp
+add_executable(master
+master.cpp
+)
+add_executable(slave
+slave.cpp
 )
 
 # Add pico_stdlib library which aggregates commonly used features
-target_link_libraries(servoDriver
+target_link_libraries(master
     pico_stdlib
     pico_time
-    hardware_pwm
     hardware_i2c
     hardware_uart   #Debug
-    pico_cyw43_arch_none
+)
+target_link_libraries(slave
+    pico_stdlib
+    pico_time
+    hardware_i2c
+    hardware_uart   #Debug
 )
 
 #For Debugging
-pico_enable_stdio_usb(servoDriver 1)
-pico_enable_stdio_uart(servoDriver 0)
+pico_enable_stdio_usb(master 1)
+pico_enable_stdio_uart(master 0)
+pico_enable_stdio_usb(slave 1)
+pico_enable_stdio_uart(slave 0)
 
 # create map/bin/hex/uf2 file in addition to ELF.
-pico_add_extra_outputs(servoDriver)
+pico_add_extra_outputs(master)
+pico_add_extra_outputs(slave)
